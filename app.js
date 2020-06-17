@@ -422,6 +422,17 @@ let partner = {};
 
                        };
 
+                       const allNames = [ "smir" , "sami" , "khaled" , "tarek" ];
+
+
+const upNames = allNames.forEach( function(name){
+
+
+    return name.toUpperCase().split("").join("");
+})
+
+console.log(upNames);
+
 
 
                 
